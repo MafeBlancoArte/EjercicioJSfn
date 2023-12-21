@@ -50,7 +50,7 @@ const longString = function(resultConk){
     return resultConk.length;
 };
 const resultlength = (resultConk.length);
-console.log(resultlength);
+console.log(result.length);
 
 //Ejercicio 3 cambio cadena a mayus
 const stringmay = resultConk.toUpperCase();
