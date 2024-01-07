@@ -60,13 +60,6 @@ console.log(stringmay);
 const stringminus = resultConk.toLowerCase();
 console.log(stringminus);
 
-// Ejercicio función que tome una cadena de texto y un índice como argumentos, 
-// y devuelva el carácter en esa posición.
-
-let frutas = frutas[0];
-    console.log(frutas);
-
-
 // Ejercicio suma numeros y entre ellos 
 
 let numeros = [45, 25, 30, 43, 554, 64], suma = 0;
@@ -85,3 +78,45 @@ let pesemestral = sumnumbers / pesopcte.length
 
 console.log (pesemestral);
 
+// Ejercicio función que tome una cadena de texto 
+//y un índice como argumentos, 
+// y devuelva el carácter en esa posición.
+
+const menus = [];
+   menus [0]= "Vegano";
+   menus [1]= "Extra Vegano";
+   menus [2]= "Ingles";
+   menus [3]= "Americano";
+   menus [4]= "Gluten Free";
+   menus [5]= "Lacto Free";
+   menus [6]= "Fructose Free";
+
+    console.log(menus);
+    
+    let menu = menus.at(4);
+    console.log(menu);
+
+//función que tome un array de números y un número como argumentos, y devuelva un nuevo array con los elementos mayores al número dado
+
+const prices = [32, 14, 68, 54, 120, 87, 120, 90,]; 
+
+    function priceToCheck(prices) {
+ 
+       return prices >= 30;
+       document.getElementById("priceToCheck").value;
+    };
+
+    function myFunction(){
+        document.getElementById("prices").innerHTML = prices.filter(priceToCheck);
+    };
+    console.log(prices);
+
+
+
+   
+
+         
+    
+    
+        
+    
