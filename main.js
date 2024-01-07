@@ -60,6 +60,13 @@ console.log(stringmay);
 const stringminus = resultConk.toLowerCase();
 console.log(stringminus);
 
+// Ejercicio función que tome una cadena de texto y un índice como argumentos, 
+// y devuelva el carácter en esa posición.
+
+let frutas = frutas[0];
+    console.log(frutas);
+
+
 // Ejercicio suma numeros y entre ellos 
 
 let numeros = [45, 25, 30, 43, 554, 64], suma = 0;
