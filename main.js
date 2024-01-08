@@ -156,6 +156,3 @@ console.log(person2.fullName2());
 //agregue una nueva propiedad al objeto 
 //con la cadena de texto como nombre y un valor inicial de null.
 
-const person3 = {
-    
-}
